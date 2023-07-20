@@ -270,9 +270,29 @@ ul li a {
     line-height: normal;
 }
 
+/* main-section-div-4 */
+.main-section-div-4 {
+    display: flex;
+    justify-content: center;
+    padding: 120px 140px 0px 200px;
+    gap: 30px;
+}
+
+.div4-img-a {
+    position: relative;
+    margin-left: 150px;
+}
+
+.div4-img-b {
+    position: relative;
+    margin-top: -280px;
+}
+
+
 /* main-section-div-5 */
 
 .main-section-div-5 {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -307,7 +327,7 @@ ul li a {
     font-size: 3rem;
     font-weight: 700;
     line-height: 60px;
-    /* 125% */
+
 }
 
 .carrers-description {
@@ -315,7 +335,7 @@ ul li a {
     font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
+
 }
 
 .main-section-div5-ul,
@@ -344,7 +364,7 @@ li {
 .main-section-div-6-a {
     padding: 120px 140px;
     display: grid;
-   grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     -ms-grid-column-align: center;
 }
@@ -522,6 +542,20 @@ h5 {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* main-section-div-4 */
+    .main-section-div-4 {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .div4-img-a{
+        width: 60%;
+    }
+    .div4-img-b{
+        width: 50%;
+    }
+
     /* main-section-div-5 */
     .main-section-div-5 {
         display: flex;
@@ -541,17 +575,18 @@ h5 {
     }
 
     /* main-section-div-6 */
-.main-section-div-6-a {
-    padding: 10px;
-    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    -ms-grid-column-align: center;
-    margin-top: 20px;
-}
-.d6-img-text {
-    margin-top: 20px;
-}
+    .main-section-div-6-a {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        -ms-grid-column-align: center;
+        margin-top: 20px;
+    }
+
+    .d6-img-text {
+        margin-top: 20px;
+    }
 
     /* footer-stylee */
     .footer-nav-ul {

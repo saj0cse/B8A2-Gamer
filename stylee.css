@@ -8,6 +8,7 @@
 
 body {
     background: #FFF;
+    margin: 0px;
 }
 
 .btn-primary {
@@ -257,7 +258,29 @@ font-weight: 700;
 .div3-description{
     line-height: normal;
 }
-
+ /* main-section-div-5 */
+ .main-section-div-5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.main-section5-left{
+    width: 50%;
+    padding: 120px 140px;
+}
+.main-section5-right{
+    width: 50%;
+}
+.main-section5-right-img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.main-section-div5-ul{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -393,4 +416,6 @@ font-weight: 700;
         .main-section2-left-img {
             width: 100%;
         }
+
+       
 }
